@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    margin: 0; 
+}
+
+.panel {
+    border: 1px solid red;
+    align-content: center;
+}
+
+#timer {
+    text-align: center;
+}
+
+.buttons {
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+.buttons button {
+    width: 50px;
+    position: relative;
+}
